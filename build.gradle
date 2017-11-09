@@ -1,0 +1,56 @@
+version '1.0.0'
+
+buildscript {
+
+    ext.kotlin_version = '1.1.51'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+subprojects {
+    ext.kotlin_version = '1.1.51'
+
+    apply plugin: 'kotlin'
+
+    repositories {
+        mavenCentral()
+        maven { url "http://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "http://jcenter.bintray.com" }
+        maven { url "http://repository.jetbrains.com/all" }
+        maven { url "http://repo.maven.apache.org/maven2" }
+    }
+
+    dependencies {
+        compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jre8', version: "$kotlin_version"
+        compile 'io.vertx:vertx-core:3.5.0'
+        compile 'io.vertx:vertx-web:3.5.0'
+        compile 'io.vertx:vertx-lang-kotlin:3.5.0'
+        compile 'io.vertx:vertx-sql-common:3.5.0'
+        compile 'com.google.code.gson:gson:2.8.2'
+        compile 'io.vertx:vertx-mysql-postgresql-client:3.5.0'
+        compile 'org.slf4j:slf4j-api:1.7.9'
+        compile 'org.slf4j:slf4j-jdk14:1.7.9'
+        compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.3'
+    }
+
+    kotlin {
+        experimental {
+            coroutines "enable"
+        }
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":System:test" external.linked.project.path="$MODULE_DIR$/../../../System" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="platform" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../System/build/classes/kotlin/test" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="System" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesState" value="enable" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../System/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../System/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../System/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../System/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../System/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="System_main" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-lang-kotlin:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-web:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-auth-common:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-core:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-mysql-postgresql-client:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-sql-common:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-jdk14:1.7.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.19.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-dns:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.vertx:vertx-bridge-common:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.mauricio:postgresql-async_2.12:0.2.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.mauricio:mysql-async_2.12:0.2.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.mauricio:db-async-common_2.12:0.2.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.joda:joda-convert:1.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.21.0-GA" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="System_main" />
+</module>

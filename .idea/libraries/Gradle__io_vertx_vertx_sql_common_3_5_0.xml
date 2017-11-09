@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-sql-common:3.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-common/3.5.0/a5c3a0222e2b0b2882e0edbdcef7516e1bd41827/vertx-sql-common-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-common/3.5.0/566dc5e05142a30f9bdfea91ebecbda8aea26d4/vertx-sql-common-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

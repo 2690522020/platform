@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Acorn/System.iml" filepath="$PROJECT_DIR$/.idea/modules/Acorn/System.iml" group="System" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/System/System_main.iml" filepath="$PROJECT_DIR$/.idea/modules/System/System_main.iml" group="System" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/System/System_test.iml" filepath="$PROJECT_DIR$/.idea/modules/System/System_test.iml" group="System" />
+      <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/platform_main.iml" group="platform" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/platform_test.iml" group="platform" />
+    </modules>
+  </component>
+</project>

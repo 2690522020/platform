@@ -1,0 +1,6 @@
+rootProject.name = 'platform'
+
+include 'System'
+
+project(':System').projectDir = "$rootDir/System" as File
+

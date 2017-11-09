@@ -1,0 +1,8 @@
+version '1.0.0'
+
+apply plugin: 'kotlin'
+
+sourceSets {
+    main.kotlin.srcDirs += 'src'
+    main.java.srcDirs += 'src/main/myJava'
+}
